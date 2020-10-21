@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body　style="margin: 0">
+    <div class="normal">ノーマルスタイルブロック</div>
+    <div class="box">ボックススタイルブロック</div>
+    <div class="margin">マージン相殺の説明用のブロック</div>
+    <p>CSSボックスモデルの基本</p>
+    <p>content box →width height</p>
+    <p>padding box →文字の間隔をつくれる</p>
+    <p>margin box →余白・隙間をつくれる</p>
+    <p>border box →線を引ける</p>
+    <P>box-sizinigプロパティ→決められたsizeに収めることができる</P>
+    <p>ブロックボックスとインラインボックス</p>
+
+    <h1>私はブロックです</h1>
+    <hr>
+    <p>hrは線を引くための要素</p>
+    <span>私はインラインです</span>
+
+    <main>
+        <body style="margin: 0;">
+            <div class="example">ブロック内の<div>ブロック</div> です。インラインの場合はmargin, padding,borderが来たときに他の要素のことを考えません。
+           
+            </div>
+        </body>
+        <p>ブロックボックス要素とインライン要素でwidth height padding margin borderの適用される範囲が異なるので注意</p>
+        <p>CSS内でdisplay宣言をすることで属性を変えることができる　→display: inline or block で属性の適用範囲を変えることができる</p>
+        <p>display宣言でinline-blockで二つの属性をかぶせることも可能</p>
+        <p>テキストコンテンツEXdivはブロックボックスとして改行されたりwidth height がしっかりと機能する。一方で、インラインテキストEX span small strong は改行、width heightは反映されないので注意。</p>
+        
+
+    </main>
+    
+</body>
+</html>
